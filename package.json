@@ -1,22 +1,22 @@
 {
-  "name": "react-svg2img",
-  "version": "2.0.0",
+  "name": "react-svg-to-image",
+  "version": "3.0.0",
   "description": "Converts SVG elements into images (PNG, JPG and etc)",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-file react-svg2img.min.js"
+    "build": "parcel build index.html --out-file react-svg-to-image.min.js"
   },
   "types": "typing.d.ts",
   "files": [
     "LICENSE",
     "package.json",
     "README.md",
-    "dist/react-svg2img.min.js",
+    "dist/react-svg-to-image.min.js",
     "dist/index.d.ts"
   ],
   "keywords": [
-    "react",
+    "react-svg-to-image",
     "svg to image",
     "svg",
     "png",
@@ -35,17 +35,19 @@
   "author": "Taslim A Hussain",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taslim-a-hussain/svg-to-png.git"
+    "url": "git+https://github.com/taslim-a-hussain/react-svg-to-image.git"
   },
   "bugs": {
-    "url": "https://github.com/taslim-a-hussain/svg-to-png/issues"
+    "url": "https://github.com/taslim-a-hussain/react-svg-to-image/issues"
   },
-  "homepage": "https://github.com/taslim-a-hussain/svg-to-png#readme",
+  "homepage": "https://github.com/taslim-a-hussain/react-svg-to-image#readme",
   "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   },
   "browserslist": [
-    "last 32 Chrome versions"
+    "last 32 Chrome versions",
+    "last 20 firefox version",
+    "last 8 safari version"
   ]
 }

@@ -1,23 +1,23 @@
-# Reactsvg2img
+# react-svg-to-image
 
-react-svg2img was forked from JuanIrache/d3-svg-to-png.
+react-svg-to-image was forked from JuanIrache/d3-svg-to-png.
 Converts SVG elements in the browser to PNG and other image formats, while keeping CSS styles. Optionally, it returns the data as a promise or downloads it. It can also rescale the svg image, ignore certain DOM elements...
 
 ## Installation
 
 ```shell
-$ npm i react-svg2img
+$ npm i react-svg-to-image
 ```
 
 ## Usage
 
 ```js
-const toImg = require('react-svg2img');
+const toImg = require('react-svg-to-image');
 toImg('selector', 'name');
 
 or
 
-import toImg from 'react-svg2img';
+import toImg from 'react-svg-to-image';
 ```
 
 ## Mandatory fields
@@ -30,11 +30,11 @@ Output: **name.png**
 ## Options
 
 ```js
-const toImg = require('react-svg2img');
+const toImg = require('react-svg-to-image');
 
 or 
 
-import toImg from 'react-svg2img';
+import toImg from 'react-svg-to-image';
 
 toImg('svg', 'name', {
   scale: 3,
