@@ -1,13 +1,23 @@
 {
-  "name": "svg-to-png",
-  "version": "0.1.6",
-  "description": "Converts SVG elements to PNG and other image formats while keeping CSS styles",
+  "name": "react-svg-2-image",
+  "version": "1.0.0",
+  "description": "Converts SVG elements into images (PNG, JPG and etc)",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-file react-svg-2-image.min.js"
   },
   "types": "typing.d.ts",
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "dist/react-svg-2-image.js",
+    "dist/index.d.ts"
+  ],
   "keywords": [
+    "react",
+    "svg to image",
     "svg",
     "png",
     "jpg",
