@@ -15,7 +15,7 @@ const inlineStyles = target => {
   const root = document.querySelector(target);
   selfCopyCss(root);
   root.querySelectorAll('*').forEach(elt => selfCopyCss(elt));
-};
+}; // inline styles
 
 const copyToCanvas = ({ target, scale, format, quality }) => {
   var svg = document.querySelector(target);
@@ -45,11 +45,14 @@ const copyToCanvas = ({ target, scale, format, quality }) => {
 
 const downloadImage = ({ file, name, format }) => {
   var a = document.createElement('a');
+  a.className = "display-none";
   a.download = `${name}.${format}`;
   a.href = file;
   document.body.appendChild(a);
   a.click();
 };
+
+// module.exports 
 
 module.exports = async (target, name, { scale = 1, format = 'png', quality = 0.92, download = true, ignore = null } = {}) => {
   const elt = document.querySelector(target);

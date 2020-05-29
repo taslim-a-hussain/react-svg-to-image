@@ -1,10 +1,10 @@
 {
-  "name": "d3-svg-to-png",
+  "name": "svg-to-png",
   "version": "0.1.6",
   "description": "Converts SVG elements to PNG and other image formats while keeping CSS styles",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
   },
   "types": "typing.d.ts",
   "keywords": [
@@ -22,15 +22,20 @@
     "dom",
     "html"
   ],
-  "author": "Juan Irache Duesca",
+  "author": "Taslim A Hussain",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuanIrache/d3-svg-to-png.git"
+    "url": "git+https://github.com/taslim-a-hussain/svg-to-png.git"
   },
   "bugs": {
-    "url": "https://github.com/JuanIrache/d3-svg-to-png/issues"
+    "url": "https://github.com/taslim-a-hussain/svg-to-png/issues"
   },
-  "homepage": "https://github.com/JuanIrache/d3-svg-to-png#readme",
-  "license": "ISC",
-  "dependencies": {}
+  "homepage": "https://github.com/taslim-a-hussain/svg-to-png#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 32 Chrome versions"
+  ]
 }
